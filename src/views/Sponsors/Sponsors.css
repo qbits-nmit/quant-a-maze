@@ -1,0 +1,444 @@
+.tobeannounced{
+  font-size: 40px;
+  font-family: 'Archive';
+  font-display: swap;
+  margin: 5rem auto;
+}
+
+.sponsors {
+  position: relative;
+  background-color: #eef6f3;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors-heading {
+  font-size: 65px;
+  font-family: 'Archive';
+  font-display: swap;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 10px;
+  color: #052d35;
+}
+
+.row-sponsors {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.new__sponsors h3 {
+  font-family: 'Archive';
+  font-display: swap;
+  font-size: 45px;
+  color: #052d35;
+  padding: 50px 0;
+}
+
+.new__sponsors h4 {
+  font-family: 'Archive';
+  color: #052d35;
+  font-display: swap;
+  font-size: 35px;
+  padding: 55px 0;
+  text-align: center;
+}
+
+.sponsors-grid {
+  display: flex;
+   gap: 4rem; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* grid-template-columns: 500px 500px; */
+  
+}
+
+.associate-sponsor{
+  display: flex;
+   gap: 1.5rem; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: space-evenly;
+  
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.sponsors__main {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.archive.new__sponsors a,
+.archive.old__sponsors a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors__img {
+  transition: all ease 0.3s;
+}
+
+.sponsors__img:hover {
+  transform: scale(1.1);
+}
+
+.polygonclass{
+  margin-top: 70px;
+}
+
+
+
+
+
+/* SEPARATE SPONSOR STYLES */
+
+.devfolio {
+  width: 450px;
+}
+.mlh {
+  width: 260px;
+}
+
+.polygon {
+  width: 450px;
+}
+
+.portis {
+  width: 280px;
+}
+
+.celo {
+  width: 300px;
+}
+
+.tezos {
+  width: 250px;
+}
+.filecoin {
+  width: 240px;
+  
+}
+.educationtree {
+  width: 150px;
+  
+}
+.echo3d{
+  width: 300px;
+}
+.interviewcake{
+  width:300px;
+}
+.voiceflow{
+  width:200px;
+}
+.balsamiq{
+  width:170px;
+}
+.leadinglearners{
+  width:280px;
+}
+.streamyard{
+  width:280px;
+}
+
+
+
+
+
+
+.replit {
+  width: 100px;
+}
+
+.jetbrains {
+  width: 120px;
+}
+.onepassword {
+  width: 100px;
+}
+
+.cryptopolitan {
+  width: 350px;
+}
+
+.stickermule {
+  width: 250px;
+}
+.gfi {
+  width: 400px;
+}
+.deepsource {
+  width: 300px;
+}
+.coinvise {
+  width: 130px;
+}
+
+.echoAR {
+  width: 300px;
+}
+
+
+
+.framer {
+  width: 250px;
+}
+.egghead {
+  width: 250px;
+}
+.cake {
+  width: 400px;
+}
+
+.testmail {
+  width: 350px;
+}
+
+.bindia {
+  width: 350px;
+}
+.codeparva {
+  width: 300px;
+
+}
+.xyz {
+  width: 180px;
+}
+.ieee {
+  width: 380px;
+}
+.aicte {
+  width: 180px;
+}
+.jetbrains {
+  width: 180px
+}
+.replit {
+  width: 300px;
+}
+.clerky {
+  width: 250px;
+}
+
+@media (max-width: 1200px) {
+  .sponsors-heading {
+    font-size: 55px;
+  }
+
+  .old-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 940px) {
+  .sponsors-heading {
+    font-size: 45px;
+  }
+
+  .sponsors-grid {
+    gap: 4rem;
+  }
+
+  .new__sponsors h3 {
+    font-size: 35px;
+  }
+  .new__sponsors h4 {
+    font-size: 25px;
+  }
+
+  .devfolio {
+    width: 380px;
+  }
+  .polygon {
+    width: 300px;
+  }
+  .deepsource {
+    width: 400px;
+  }
+  .replit {
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .devfolio {
+    width: 300px;
+  }
+
+  
+
+  .sponsors-heading {
+    font-size: 35px;
+  }
+
+
+  .sponsors__main {
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .new__sponsors h3 {
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .new__sponsors h4 {
+    font-size: 20px;
+    padding: 20px 0;
+    padding-bottom: 45px;
+  }
+
+  .article {
+    height: 100px;
+  }
+
+  .old-title {
+    font-size: 20px;
+  }
+
+  .sponsors-grid {
+    gap: 4rem;
+  }
+
+  .polygon {
+    width: 270px;
+  }
+
+  .portis {
+    width: 230px;
+  }
+
+  .celo {
+    width: 270px;
+  }
+
+  .tezos {
+    width: 220px;
+  }
+
+  .replit {
+    width: 90px;
+  }
+
+  .jetbrains {
+    width: 100px;
+  }
+  .onepassword {
+    width: 90px;
+  }
+
+  .cryptopolitan {
+    width: 280px;
+  }
+
+  .stickermule {
+    width: 220px;
+  }
+
+  .coinvise {
+    width: 110px;
+  }
+
+  .echoAR {
+    width: 280px;
+  }
+
+  .sashido {
+    width: 300px;
+  }
+
+  .framer {
+    width: 250px;
+  }
+
+  .cake {
+    width: 300px;
+  }
+
+  .testmail {
+    width: 300px;
+  }
+}
+
+@media (max-width:650px) {
+  .sponsors-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .associate-sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  }
+}
+
+@media (max-width: 450px) {
+  .devfolio {
+    width: 280px;
+    
+  }
+  .file{
+    padding-bottom: 20px;
+    
+  }
+
+  .mlh{
+    width: 280px;
+    
+  }
+  .polygon{
+    width: 280px;
+  }
+  .sponsors-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .associate-sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  }
+  .sponsors__img {
+    width: 250px;
+  }
+  .coinvise {
+    width: 120px;
+  }
+  .filecoin {
+    margin-top: -140px;
+    width:120px;
+  }
+  .onepassword {
+    width: 120px;
+  }
+  .xyz {
+    width: 150px;
+  }
+  .aicte {
+    width: 130px;
+  }
+  .jetbrains {
+    width: 130px;
+  }.tezos{
+   
+    width:180px;
+   
+  }
+  .educationtree {
+    width: 100px;
+    
+  }}

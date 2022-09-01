@@ -1,0 +1,54 @@
+:root {
+    background-image: linear-gradient(0deg, #ccd0d6 0%, #fff 100%);
+}
+
+.team {
+    position: relative;
+    padding-top: 150px;
+ 
+    width: 95vw;
+    top: -25px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .team h1 {
+      text-align: center;
+  }
+
+  .team-heading {
+    font-size: 40px;
+    font-family: 'Archive';
+    text-align: center;
+
+    font-display: swap;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0 10px;
+    margin-bottom: 100px;
+  }
+  .team-card {
+      display: flex;
+      flex-direction: row;
+      column-gap: 5px;
+      flex-wrap: wrap;
+      margin: 15px 0;
+      justify-content: center;
+  }
+.res-full {
+    flex-direction: column;
+}
+.half-container {
+    float: left;
+  width: 50%;
+}
+@media screen and (max-width: 750px) {
+    .res-full {
+        flex-direction: row;
+    }
+    .half-container {
+        width: 100%;
+    }
+}
