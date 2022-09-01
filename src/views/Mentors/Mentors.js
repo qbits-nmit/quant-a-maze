@@ -3,8 +3,9 @@ import './Mentors.css';
 
 import MentorCard from '../../components/MentorCards/MentorCards';
 
+import mark_m from '../../assets/mentors/qbits/mark.jpg';
+/*
 import shadow from '../../assets/mentors/new/shadow.png';
-
 import Shubham from '../../assets/mentors/new/shubham.png';
 import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
 import jenil from '../../assets/mentors/new/Jenil.jpeg';
@@ -39,6 +40,7 @@ import rishab from '../../assets/mentors/new/rishab.jpg'
 // import mFifteen from '../../assets/mentors/old/Vishwas.jpg';
 // import mSixteen from '../../assets/mentors/old/Anand.jpeg';
 // import mSeventeen from '../../assets/mentors/old/Kartik.jpg';
+*/
 
 const Mentors = () => {
   return (
@@ -56,7 +58,17 @@ const Mentors = () => {
       <article className="mentors__main">
         <div className="sponsors-grid">
 
+        <div className="mentor__container">
+          <MentorCard
 
+            name="Mark Mathias"
+              img={mark_m}
+              occupation="Co-founder At QNu Labs"
+              linkedIn="https://www.linkedin.com/in/mark-mathias-72b39bb7/"
+          />
+          </div>
+
+        {/*
         <div className="mentor__container">
           <MentorCard
 
@@ -65,7 +77,7 @@ const Mentors = () => {
               occupation=" "
               linkedIn="https://linkedin.com/in"
           />
-          </div>
+          </div> */}
           </div>
          {/* <div className="mentor__container">
             <MentorCard

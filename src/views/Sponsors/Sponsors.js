@@ -2,7 +2,7 @@ import React from "react";
 // import { motion } from 'framer-motion';
 
 import "./Sponsors.css";
-
+import qnu from "../../assets/sponsors/qbits/bronze/qnu.jpg";
 import devfolio from "../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png";
 import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
 import leadinglearners from "../../assets/sponsors/new/leadinglearners.png";
@@ -436,7 +436,7 @@ const Sponsors = () => {
 
               <div className="article">
                 <a
-                  href="https://www.sashido.io/en/"
+                  href="https://www.qnulabs.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
