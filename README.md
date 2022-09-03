@@ -1,4 +1,4 @@
-# HACKBOUT 2.0 Official Site
+# QUANT-A-Maze Official Site
 
 ## Available Scripts
 

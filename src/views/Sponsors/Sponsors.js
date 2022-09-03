@@ -2,6 +2,11 @@ import React from "react";
 // import { motion } from 'framer-motion';
 
 import "./Sponsors.css";
+import bqp from "../../assets/sponsors/qbits/bqp-rm-bg.png";
+import alvolved from "../../assets/sponsors/qbits/alvolved.png";
+import myn from "../../assets/sponsors/qbits/myn.png";
+import qnu from "../../assets/sponsors/qbits/qnu.jpg";
+/*
 import qnu from "../../assets/sponsors/qbits/bronze/qnu.jpg";
 import devfolio from "../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png";
 import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
@@ -46,6 +51,7 @@ import egghead from "../../assets/sponsors/new/egghead.PNG";
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
 // import repl from '../../assets/sponsors/new/replit-icon.svg';
+*/
 
 const Sponsors = () => {
   return (
@@ -76,14 +82,14 @@ const Sponsors = () => {
             <div className="sponsors-grid">
               <a
                 // href="https://twitter.com/devfolio/"
-                href="https://devfolio.co/"
+                href="https://www.bosonqpsi.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="a_devfolio"
               >
                 <img
-                  src={devfolio}
-                  className="sponsors__img devfolio"
+                  src={bqp}
+                  className="sponsors__img bqp"
                   alt="sponsor devfolio"
                   data-aos="zoom-in"
                   data-aos-offset="200"
@@ -93,7 +99,7 @@ const Sponsors = () => {
                   
                 />
               </a>
-
+              {/* 
               <a
                 // href="https://twitter.com/devfolio/"
                 href="https://mlh.io/"
@@ -112,18 +118,11 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                   
                 />
-              </a>
-
-              
-
-             
-
+              </a> */}
               
             </div>
-
+              {/*}
             <div className="sponsors-grid polygonclass">
-             
-
             </div>
             <a
                 href="https://polygon.technology/"
@@ -141,6 +140,7 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                 />
               </a>
+      */}
             
           </div>
 
@@ -154,60 +154,9 @@ const Sponsors = () => {
               data-aos-duration="1000"
               data-aos-easing="ease"
             >
-              <span className="green">Gold</span> Sponsors
+            <span className="green">Gold</span> Sponsors
             </h4>
-
-            {/* <div className="tobeannounced">
-              <h4
-                data-aos="fade-up"
-                data-aos-offset="200"
-                data-aos-delay="0"
-                data-aos-duration="1000"
-                data-aos-easing="ease"
-              >
-                <span> To be Announced...</span>
-              </h4>
-            </div> */}
-
-            {/*    <div className="sponsors-grid">
-            <div className="article">
-              <a
-                href="https://polygon.technology/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={polygon}
-                  className="sponsors__img polygon"
-                  alt="sponsor polygon"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="0"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease"
-                />
-              </a>
-            </div>
-             <div className="article">
-              <a
-                href="https://www.portis.io/  "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={portis}
-                  className="sponsors__img portis"
-                  alt="sponnsor portis"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="0"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease"
-                />
-              </a>
-          </div> */}
-
-           
+            {/* 
             <div className="associate-sponsor">
               <div className="article">
                 <a
@@ -264,6 +213,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
+    */}
 
             <div className="sponsors__sub">
             <h4
@@ -276,7 +226,7 @@ const Sponsors = () => {
               <span className="green">Silver</span> Sponsors
             </h4>
             </div>
-
+            {/*
             <div className="associate-sponsor">
             <div className="article">
                 <a
@@ -417,13 +367,13 @@ const Sponsors = () => {
             <div className="associate-sponsor">
               <div className="article">
                 <a
-                  href="https://rosenfeldmedia.com/"
+                  href="https://www.aivolved.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={rosenfeld}
-                    className="sponsors__img filecoin"
+                    src={alvolved}
+                    className="sponsors__img alvolved"
                     alt="sponsor Shashido"
                     data-aos="zoom-in"
                     data-aos-offset="200"
@@ -441,8 +391,8 @@ const Sponsors = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={sashido}
-                    className="sponsors__img filecoin"
+                    src={qnu}
+                    className="sponsors__img qnu"
                     alt="sponsor tezos"
                     data-aos="zoom-in"
                     data-aos-offset="200"
@@ -454,13 +404,13 @@ const Sponsors = () => {
               </div>
               <div className="article">
                 <a
-                  href="https://www.interviewcake.com/"
+                  href="https://myn.global/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={interviewCake}
-                    className="sponsors__img filecoin"
+                    src={myn}
+                    className="sponsors__img myn"
                     alt="sponsor tezos"
                     data-aos="zoom-in"
                     data-aos-offset="200"
@@ -471,7 +421,7 @@ const Sponsors = () => {
                 </a>
               </div>
             </div>
-
+            {/*
             <div className="associate-sponsor" >
             
               <div className="article">

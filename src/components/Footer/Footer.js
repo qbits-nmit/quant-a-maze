@@ -14,7 +14,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer> 
+      {/*
       <div className="custom-shape-divider-top-1619379941">
         {/* <svg
             data-name="Layer 1"
@@ -28,7 +29,7 @@ const Footer = () => {
               class="shape-fill"
             ></path>
           </svg> */}
-        {/* </Wave> */}
+        {/* </Wave> 
       </div>
  
       <Wave
@@ -47,7 +48,7 @@ const Footer = () => {
           speed: 0.25,
           points: 4,
         }}
-      />
+      /> */}
 
       <div className="footer__image">&nbsp;</div>
       <div className="footer">
@@ -94,8 +95,7 @@ const Footer = () => {
             <h3>Resources</h3>
             <a
               // href="https://drive.google.com/file/d/1P1LMcvudLiWL0nBSIvKOLU7i3EKAcKA4/view?usp=sharing"
-              href="https://drive.google.com/file/d/1zj9wgSUgiEkOUcSbjf_T7BZlhNTbmypV/view?usp=sharing"
-              
+              href="https://drive.google.com/file/d/1qz1BnGPdxw6Dh9B1n6y3QLqIZ-cSM6yW/view?usp=sharing"
              
               target="_blank"
               rel="noreferrer noopener "

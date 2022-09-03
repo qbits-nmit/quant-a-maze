@@ -155,16 +155,17 @@ const Landing = () => {
             Hackathon
           </h2>
           <h2 className="landing__sub-heading green">5th September 2022</h2>
-          {/* <h4 className="landing__sub-heading-2">
-              Registrations opening soon!
-            </h4> */}
-          {/* <a
-              href="https://forms.gle/1bQ9b9TKh1hyX4F58"
+          
+           <h4 className="landing__sub-heading-2">
+              Register using the below link!
+      </h4>  
+           <a
+              href="https://bit.ly/3en2uIH"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="landing__btn">Notify Me!</button>
-            </a> */}
+              <button className="landing__btn">Register Here</button>
+            </a> 
           <div className="applydiv" style={{ position: "absolute" }}>
             <div
               class="apply-button"
@@ -219,7 +220,9 @@ const Landing = () => {
             </button>
           </a>
         </div>
+        
         <div className="landing__sub-2">
+        {/*
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="hex__back-1"
@@ -243,7 +246,7 @@ const Landing = () => {
               fill=" #7da4bc9c"
               d="M171.473 8.5q14.722-8.5 29.445 0L357.668 99q14.723 8.5 14.723 25.5v181q0 17-14.723 25.5l-156.75 90.5q-14.723 8.5-29.445 0L14.723 331Q0 322.5 0 305.5v-181q0-17 14.722-25.5z"
             />
-          </svg>
+            </svg> */}
           <div className="landing__sub-2">
             <img src={HackBout} alt="hackbout-logo" className="landing__logo" />
           </div>

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { CSSTransition } from "react-transition-group";
+/*
 import { Link } from 'react-router-dom';
+*/
 import { HashLink } from 'react-router-hash-link'
 
 export default function Header() {

@@ -1,6 +1,6 @@
-.tobeannounced{
+.tobeannounced {
   font-size: 40px;
-  font-family: 'Archive';
+  font-family: "Archive";
   font-display: swap;
   margin: 5rem auto;
 }
@@ -17,7 +17,7 @@
 
 .sponsors-heading {
   font-size: 65px;
-  font-family: 'Archive';
+  font-family: "Archive";
   font-display: swap;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -34,7 +34,7 @@
 }
 
 .new__sponsors h3 {
-  font-family: 'Archive';
+  font-family: "Archive";
   font-display: swap;
   font-size: 45px;
   color: #052d35;
@@ -42,7 +42,7 @@
 }
 
 .new__sponsors h4 {
-  font-family: 'Archive';
+  font-family: "Archive";
   color: #052d35;
   font-display: swap;
   font-size: 35px;
@@ -52,18 +52,16 @@
 
 .sponsors-grid {
   display: flex;
-   gap: 4rem; 
+  gap: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   /* grid-template-columns: 500px 500px; */
-  
 }
 
-.associate-sponsor{
+.associate-sponsor {
   display: flex;
-   gap: 1.5rem; 
+  gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: space-evenly;
-  
 }
 
 .article {
@@ -97,18 +95,18 @@
   transform: scale(1.1);
 }
 
-.polygonclass{
+.polygonclass {
   margin-top: 70px;
 }
 
-
-
-
-
 /* SEPARATE SPONSOR STYLES */
+.bqp {
+  width: 260px;
+}
 
 .devfolio {
-  width: 450px;
+  width: 260px;
+  height: 260px;
 }
 .mlh {
   width: 260px;
@@ -131,35 +129,28 @@
 }
 .filecoin {
   width: 240px;
-  
 }
 .educationtree {
   width: 150px;
-  
 }
-.echo3d{
+.echo3d {
   width: 300px;
 }
-.interviewcake{
-  width:300px;
+.interviewcake {
+  width: 300px;
 }
-.voiceflow{
-  width:200px;
+.voiceflow {
+  width: 200px;
 }
-.balsamiq{
-  width:170px;
+.balsamiq {
+  width: 170px;
 }
-.leadinglearners{
-  width:280px;
+.leadinglearners {
+  width: 280px;
 }
-.streamyard{
-  width:280px;
+.streamyard {
+  width: 280px;
 }
-
-
-
-
-
 
 .replit {
   width: 100px;
@@ -193,8 +184,6 @@
   width: 300px;
 }
 
-
-
 .framer {
   width: 250px;
 }
@@ -214,7 +203,6 @@
 }
 .codeparva {
   width: 300px;
-
 }
 .xyz {
   width: 180px;
@@ -226,13 +214,17 @@
   width: 180px;
 }
 .jetbrains {
-  width: 180px
+  width: 180px;
 }
 .replit {
   width: 300px;
 }
 .clerky {
   width: 250px;
+}
+
+.alvolved {
+  width: 180px;
 }
 
 @media (max-width: 1200px) {
@@ -280,12 +272,9 @@
     width: 300px;
   }
 
-  
-
   .sponsors-heading {
     font-size: 35px;
   }
-
 
   .sponsors__main {
     margin: 10px 0;
@@ -372,9 +361,24 @@
   .testmail {
     width: 300px;
   }
+  .bqp {
+    width: 120px;
+  }
+
+  .myn {
+    width: 100px;
+  }
+
+  .alvolved {
+    width: 100px;
+  }
+
+  .qnu {
+    width: 100px;
+  }
 }
 
-@media (max-width:650px) {
+@media (max-width: 650px) {
   .sponsors-grid {
     display: flex;
     flex-direction: column;
@@ -382,25 +386,22 @@
   .associate-sponsor {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
   }
 }
 
 @media (max-width: 450px) {
   .devfolio {
     width: 280px;
-    
   }
-  .file{
+  .file {
     padding-bottom: 20px;
-    
   }
 
-  .mlh{
+  .mlh {
     width: 280px;
-    
   }
-  .polygon{
+  .polygon {
     width: 280px;
   }
   .sponsors-grid {
@@ -410,7 +411,7 @@
   .associate-sponsor {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
   }
   .sponsors__img {
     width: 250px;
@@ -420,7 +421,7 @@
   }
   .filecoin {
     margin-top: -140px;
-    width:120px;
+    width: 120px;
   }
   .onepassword {
     width: 120px;
@@ -433,12 +434,26 @@
   }
   .jetbrains {
     width: 130px;
-  }.tezos{
-   
-    width:180px;
-   
+  }
+  .tezos {
+    width: 180px;
   }
   .educationtree {
     width: 100px;
-    
-  }}
+  }
+  .myn {
+    width: 120px;
+  }
+
+  .alvolved {
+    width: 120px;
+  }
+
+  .qnu {
+    width: 120px;
+  }
+
+  .bqp {
+    width: 120px;
+  }
+}

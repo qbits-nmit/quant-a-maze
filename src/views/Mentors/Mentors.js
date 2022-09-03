@@ -4,8 +4,9 @@ import './Mentors.css';
 import MentorCard from '../../components/MentorCards/MentorCards';
 
 import mark_m from '../../assets/mentors/qbits/mark.jpg';
-/*
+
 import shadow from '../../assets/mentors/new/shadow.png';
+/*
 import Shubham from '../../assets/mentors/new/shubham.png';
 import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
 import jenil from '../../assets/mentors/new/Jenil.jpeg';
@@ -61,10 +62,10 @@ const Mentors = () => {
         <div className="mentor__container">
           <MentorCard
 
-            name="Mark Mathias"
-              img={mark_m}
-              occupation="Co-founder At QNu Labs"
-              linkedIn="https://www.linkedin.com/in/mark-mathias-72b39bb7/"
+            name="To be announced soon..."
+              img={shadow}
+              /*occupation="To be announced soon..."*/
+              linkedIn="https://www.linkedin.com/"
           />
           </div>
 

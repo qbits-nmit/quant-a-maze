@@ -17,8 +17,9 @@ import './App.css';
 import Founder from './views/founders/founders';
 import Navbar from './views/navbar/navbar';
 import Workshop from './views/workshops/workshop'
+/*
 import Mlhform from './views/Mlhform/Form'
-
+*/
 
 function App() {
   useEffect(() => {
@@ -54,7 +55,7 @@ function App() {
     </Fragment>
     );
   }
-
+  
   const MentorJsx = () => {
     return (
       <Fragment>
