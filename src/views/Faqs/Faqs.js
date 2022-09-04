@@ -66,7 +66,7 @@ const Faqs = () => {
             Who can register?
           </article>
           <div className="panel">
-            <p> Everyone's welcome. Student or Professional.</p>
+            <p> Everyone's welcome. Student or Professional. Age Limit is 25 years.</p>
           </div>
           <article
             className="accordion"
@@ -94,7 +94,7 @@ const Faqs = () => {
           <div className="panel">
             <p>
               {' '}
-              Registrations close on 15th March, 2022 at 23:59. So, giddy up and
+              Registrations close on 15th October, 2022 at 23:59. So, giddy up and
               submit your ideas ASAP and don't wait for the last minute!
             </p>
           </div>
@@ -185,8 +185,8 @@ const Faqs = () => {
           <div className="panel">
             <p>
               {' '}
-              A panel of some experienced professionals will evaluate hacks
-              based on creativity, technical difficulty, design, and usefulness.
+              A panel of some experienced professionals will evaluate the project
+              based on creativity, design, and usefulness.
             </p>
           </div>
           <article

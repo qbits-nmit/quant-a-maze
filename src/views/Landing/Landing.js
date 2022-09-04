@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import VanillaTilt from "vanilla-tilt";
 import Particles from "react-particles-js";
 
-import HackBout from "../../assets/HackBout.svg";
+import quant from "../../assets/quanta.png";
 import "./Landing.css";
 import Wave from "react-wavify";
 
@@ -145,8 +145,9 @@ const Landing = () => {
       />
       <article className="landing__container">
         <div className="landing__sub-1">
+          {/*
           <h1 className="landing__heading">QUANT-A-MAZE</h1>
-
+      */}
           <h2 className="landing__sub-heading">
             {" "}
             <strong>
@@ -155,17 +156,17 @@ const Landing = () => {
             Hackathon
           </h2>
           <h2 className="landing__sub-heading green">5th September 2022</h2>
-          
-           <h4 className="landing__sub-heading-2">
-              Register using the below link!
-      </h4>  
-           <a
-              href="https://bit.ly/3en2uIH"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="landing__btn">Register Here</button>
-            </a> 
+
+          <h4 className="landing__sub-heading-2">
+            Register using the below link!
+          </h4>
+          <a
+            href="https://bit.ly/3en2uIH"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="landing__btn">Register</button>
+          </a>
           <div className="applydiv" style={{ position: "absolute" }}>
             <div
               class="apply-button"
@@ -220,9 +221,9 @@ const Landing = () => {
             </button>
           </a>
         </div>
-        
+
         <div className="landing__sub-2">
-        {/*
+          {/*
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="hex__back-1"
@@ -248,7 +249,7 @@ const Landing = () => {
             />
             </svg> */}
           <div className="landing__sub-2">
-            <img src={HackBout} alt="hackbout-logo" className="landing__logo" />
+            <img src={quant} alt="hackbout-logo" className="landing__logo" />
           </div>
         </div>
       </article>

@@ -1,20 +1,23 @@
-import React from 'react';
-import { IconContext } from 'react-icons';
-import { TiSocialInstagram } from 'react-icons/ti';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
-import { RiHeart2Fill } from 'react-icons/ri';
-import Wave from 'react-wavify';
+import React from "react";
+import { IconContext } from "react-icons";
+import { TiSocialInstagram } from "react-icons/ti";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { RiHeart2Fill } from "react-icons/ri";
+import Wave from "react-wavify";
+import sangharsh from "../../assets/sangharsh.png";
+import iris from "../../assets/iris.png";
+import quant2 from "../../assets/quant-logo.png";
 
-import hackBout from '../../assets/HackBout.svg';
-import './Footer.css';
-import { Link } from 'react-router-dom';
+import hackBout from "../../assets/HackBout.svg";
+import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer> 
+    <footer>
       {/*
       <div className="custom-shape-divider-top-1619379941">
         {/* <svg
@@ -29,7 +32,7 @@ const Footer = () => {
               class="shape-fill"
             ></path>
           </svg> */}
-        {/* </Wave> 
+      {/* </Wave> 
       </div>
  
       <Wave
@@ -52,8 +55,8 @@ const Footer = () => {
 
       <div className="footer__image">&nbsp;</div>
       <div className="footer">
-        <div className="footer__logo" style={{ zIndex: '15' }}>
-          <img src={hackBout} className="footer_logo_img" alt="HackBout-Logo" />
+        <div className="footer__logo" style={{ zIndex: "15" }}>
+          <img src={quant2} className="footer_logo_img" alt="QuantAMaze-Logo" />
           <h1>QUANT-A-MAZE</h1>
         </div>
         <div className="footer__sections">
@@ -63,8 +66,8 @@ const Footer = () => {
               href="#tracks"
               onClick={(e) => {
                 e.preventDefault();
-                document.querySelector('.tracks').scrollIntoView({
-                  behavior: 'smooth',
+                document.querySelector(".tracks").scrollIntoView({
+                  behavior: "smooth",
                 });
               }}
             >
@@ -76,14 +79,14 @@ const Footer = () => {
               href="#sponsors"
               onClick={(e) => {
                 e.preventDefault();
-                document.querySelector('.sponsors').scrollIntoView({
-                  behavior: 'smooth',
+                document.querySelector(".sponsors").scrollIntoView({
+                  behavior: "smooth",
                 });
               }}
             >
               Sponsors
             </a>
-            { /* 
+            {/* 
             <Link
               to="/mlhform"
               rel="noreferrer noopener "
@@ -96,21 +99,20 @@ const Footer = () => {
             <a
               // href="https://drive.google.com/file/d/1P1LMcvudLiWL0nBSIvKOLU7i3EKAcKA4/view?usp=sharing"
               href="https://drive.google.com/file/d/1qz1BnGPdxw6Dh9B1n6y3QLqIZ-cSM6yW/view?usp=sharing"
-             
               target="_blank"
               rel="noreferrer noopener "
             >
               Sponsorship Brochure
             </a>
-            {/*
+
             <a
-              href="https://devfolio.co/code-of-conduct"
+              href="https://drive.google.com/file/d/1FfgQxKHOD-IRRvxgTAAnar9fdPfWp2iQ/view?usp=sharing"
               target="_blank"
               rel="noreferrer noopener "
             >
-              Devfolio Code of Conduct
+              Rules & Regulations
             </a>
-
+            {/*
             <a
               href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
               target="_blank"
@@ -118,9 +120,7 @@ const Footer = () => {
             >
               MLH Code of Conduct
             </a>
-            */}    
-          
-
+            */}
           </div>
           <div className="footer__sec-3">
             <h3>Contact Us</h3>
@@ -129,9 +129,9 @@ const Footer = () => {
                 href="https://www.instagram.com/qtechclub_nmit"
                 target="_blank"
                 rel="noreferrer noopener "
-                style={{ fontSize: '27px' }}
+                style={{ fontSize: "27px" }}
               >
-                <IconContext.Provider value={{ title: 'Instagram-Link' }}>
+                <IconContext.Provider value={{ title: "Instagram-Link" }}>
                   <TiSocialInstagram />
                 </IconContext.Provider>
               </a>
@@ -140,10 +140,10 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer noopener "
               >
-                <IconContext.Provider value={{ title: 'LinkedIn-Link' }}>
+                <IconContext.Provider value={{ title: "LinkedIn-Link" }}>
                   <FaLinkedin />
                 </IconContext.Provider>
-              </a> 
+              </a>
               {/*
               <a
                 href="https://www.facebook.com/pg/hackclubnmit/posts/"
@@ -160,11 +160,11 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer noopener "
               >
-                <IconContext.Provider value={{ title: 'Github-Link' }}>
+                <IconContext.Provider value={{ title: "Github-Link" }}>
                   <FaGithub />
                 </IconContext.Provider>
               </a>
-            {/*}  
+              {/*}  
             </div>
             <div className="social__links-2"> */}
               <a
@@ -172,7 +172,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer noopener "
               >
-                <IconContext.Provider value={{ title: 'Email-Link' }}>
+                <IconContext.Provider value={{ title: "Email-Link" }}>
                   <MdEmail />
                 </IconContext.Provider>
               </a>
@@ -180,15 +180,26 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/*
+      {/*       
       <div className="footer__end">
-        Made with&nbsp;
-        <IconContext.Provider
-          value={{ color: 'rgb(255, 92, 187)', title: 'love' }}
-        >
-          <RiHeart2Fill />
-        </IconContext.Provider>
-        &nbsp; <span>HackClub NMIT</span>
+        In collaboration with
+        <div className="social_links">
+            <img
+              src={iris}
+              className="footer_logo_club"
+              alt="Iris-Logo"
+            />
+            <img
+              src={sangharsh}
+              className="footer_logo_club"
+              alt="Iris-Logo"
+            />
+            <img
+              src={iris}
+              className="footer_logo_club"
+              alt="Iris-Logo"
+            />
+        </div>
       </div>
           */}
     </footer>

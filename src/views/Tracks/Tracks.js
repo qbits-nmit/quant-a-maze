@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 // import VanillaTilt from 'vanilla-tilt';
-import Particles from 'react-particles-js';
+import Particles from "react-particles-js";
 
-import Card from '../../components/track-cards/card';
-import './Tracks.css';
+import Card from "../../components/track-cards/card";
+import "./Tracks.css";
 
 const Tracks = () => {
   return (
@@ -20,19 +20,19 @@ const Tracks = () => {
               },
             },
             color: {
-              value: '#10aa62',
+              value: "#10aa62",
             },
             shape: {
-              type: 'polygon',
+              type: "polygon",
               stroke: {
                 width: 0,
-                color: '#000000',
+                color: "#000000",
               },
               polygon: {
                 nb_sides: 6,
               },
               image: {
-                src: 'img/github.svg',
+                src: "img/github.svg",
                 width: 100,
                 height: 100,
               },
@@ -60,17 +60,17 @@ const Tracks = () => {
             line_linked: {
               enable: true,
               distance: 150,
-              color: '#10aa62',
+              color: "#10aa62",
               opacity: 0.4,
               width: 1,
             },
             move: {
               enable: true,
               speed: 6,
-              direction: 'top-right',
+              direction: "top-right",
               random: false,
               straight: false,
-              out_mode: 'out',
+              out_mode: "out",
               bounce: false,
               attract: {
                 enable: false,
@@ -80,15 +80,15 @@ const Tracks = () => {
             },
           },
           interactivity: {
-            detect_on: 'canvas',
+            detect_on: "canvas",
             events: {
               onhover: {
                 enable: false,
-                mode: 'bubble',
+                mode: "bubble",
               },
               onclick: {
                 enable: true,
-                mode: 'push',
+                mode: "push",
               },
               resize: true,
             },
@@ -132,32 +132,37 @@ const Tracks = () => {
         Tracks
       </h1>
       <div className="archive track-cards">
-        <Card img={'img1'}>
+        <Card img={"img1"}>
           <span>Machine&nbsp;</span>
           <span>Learning&nbsp;</span>
           <span>And&nbsp;</span>
           <span>Optimization&nbsp;</span>
         </Card>
-        <Card img={'img2'}>
+        <Card img={"img2"}>
           <span>Fintech&nbsp;</span>
         </Card>
-        <Card img={'img3'}>
+        <Card img={"img3"}>
           <span>Nature&nbsp;</span>
         </Card>
-      </div>
-      {/* <div className="archive"> */}
-      {/* </div> */}
-      <div className="archive track-cards last__card">
-        <Card img={'img4'}>
+        <Card img={"img4"}>
           <span>Biology&nbsp;</span>
         </Card>
-        <Card img={'img5'}>
+      </div>
+      <div className="archive track-cards">
+        <Card img={"img5"}>
           <span>Cybersecurity&nbsp;</span>
         </Card>
-        <Card img={'img6'}>
+        <Card img={"img6"}>
+          <span>Food Security&nbsp;</span>
+          <span>Agriculture&nbsp;</span>
+        </Card>
+        <Card img={"img6"}>
           <span>Open&nbsp;</span>
           <span>Innovation&nbsp;</span>
         </Card>
+      {/*
+      </div>
+      <div className="archive track-cards last__card"> */}
         {/*Food Security and Agriculture Problem Card Missing*/}
       </div>
     </section>
