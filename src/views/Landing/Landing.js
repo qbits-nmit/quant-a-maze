@@ -16,7 +16,7 @@ const Landing = () => {
       });
     }
   }, []);
-
+  /*
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -27,6 +27,7 @@ const Landing = () => {
       document.body.removeChild(script);
     };
   }, []);
+  */
 
   return (
     <section id="landing" className="landing">
@@ -167,6 +168,7 @@ const Landing = () => {
           >
             <button className="landing__btn">Register</button>
           </a>
+          {/*
           <div className="applydiv" style={{ position: "absolute" }}>
             <div
               class="apply-button"
@@ -175,6 +177,7 @@ const Landing = () => {
               style={{ width: "312px", height: "44px", position: "relative" }}
             ></div>
           </div>
+    */}
 
           <a
             href="https://discord.com/invite/G6r9vnYxqd"
@@ -249,7 +252,7 @@ const Landing = () => {
             />
             </svg> */}
           <div className="landing__sub-2">
-            <img src={quant} alt="hackbout-logo" className="landing__logo" />
+            <img src={quant} alt="quant-a-maze logo" className="landing__logo" />
           </div>
         </div>
       </article>

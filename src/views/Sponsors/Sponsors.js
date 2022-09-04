@@ -225,6 +225,24 @@ const Sponsors = () => {
             >
               <span className="green">Silver</span> Sponsors
             </h4>
+              <div className="article">
+                <a
+                  href="https://myn.global/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={myn}
+                    className="sponsors__img myn"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
             </div>
             {/*
             <div className="associate-sponsor">
@@ -393,24 +411,6 @@ const Sponsors = () => {
                   <img
                     src={qnu}
                     className="sponsors__img qnu"
-                    alt="sponsor tezos"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
-              </div>
-              <div className="article">
-                <a
-                  href="https://myn.global/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={myn}
-                    className="sponsors__img myn"
                     alt="sponsor tezos"
                     data-aos="zoom-in"
                     data-aos-offset="200"
