@@ -152,7 +152,7 @@ const Tracks = () => {
         <Card img={"img5"}>
           <span>Cybersecurity&nbsp;</span>
         </Card>
-        <Card img={"img6"}>
+        <Card img={"img7"}>
           <span>Food Security&nbsp;</span>
           <span>Agriculture&nbsp;</span>
         </Card>

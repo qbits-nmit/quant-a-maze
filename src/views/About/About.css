@@ -61,11 +61,11 @@
   cursor: pointer;
 }
 
-.img-1 {
-  background: url('../../assets/about/abt-1.jpg');
+.img-4 {
+  background: url('../../assets/about/abt-4.jpg');
   background-size: 160%;
   background-repeat: no-repeat;
-  background-position: -100px;
+  background-position: -130px;
   left: 90px;
 }
 

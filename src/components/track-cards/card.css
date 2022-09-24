@@ -80,21 +80,27 @@
   background-repeat: no-repeat;
 }
 
+.img7 {
+  background: url("../../assets/tracks/food.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .img1:hover{
   transition-property: filter;
-  filter:saturate(165%);
+  filter:saturate(200%);
 }
 .img2:hover{
   transition-property: filter;
-  filter:saturate(250%);
+  filter:saturate(300%);
 }
 .img3:hover{
   transition-property: filter;
-  filter:saturate(210%);
+  filter:saturate(250%);
 }
 .img4:hover{
   transition-property: filter;
-  filter:saturate(350%);
+  filter:saturate(400%);
 }
 .img5:hover{
   transition-property: filter;
@@ -102,7 +108,12 @@
 }
 .img6:hover{
   transition-property: filter;
-  filter:saturate(280%);
+  filter:saturate(300%);
+}
+
+.img7:hover {
+  transition-property: filter;
+  filter: saturate(300%);
 }
 
 @media (max-width: 1200px) {
