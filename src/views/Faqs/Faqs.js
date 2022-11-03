@@ -39,11 +39,7 @@ const Faqs = () => {
           </div>
           <article className="accordion">Who can register?</article>
           <div className="panel">
-            <p>
-              {" "}
-              Everyone's welcome. Student or Professional. Age Limit is 25
-              years.
-            </p>
+            <p> Everyone's welcome. Student or Professional.</p>
           </div>
           <article className="accordion">Is there a registration fee?</article>
           <div className="panel">
@@ -55,11 +51,11 @@ const Faqs = () => {
           <div className="panel">
             <p>
               {" "}
-              Registrations close on 15th October, 2022 at 23:59. So, giddy up
+              Registrations close on 10th November, 2022 at 23:59. So, giddy up
               and submit your ideas ASAP and don't wait for the last minute!
             </p>
           </div>
-          <article className="accordion">
+          {/* <article className="accordion"> 
             What are Bounties? How to win them?
           </article>
           <div className="panel">
@@ -71,6 +67,7 @@ const Faqs = () => {
               it. PS Your team can win more than one bounty.
             </p>
           </div>
+  */}
         </div>
         <div className="faqs__sub-2">
           <article className="accordion">
@@ -95,7 +92,8 @@ const Faqs = () => {
               to have company and not be alone on this amazing journey :)
             </p>
           </div>
-          <article className="accordion">
+
+          {/* <article className="accordion"> 
             What if I haven't formed a team yet !
           </article>
           <div className="panel">
@@ -105,6 +103,7 @@ const Faqs = () => {
               server to work on an idea in the same track to form a team!
             </p>
           </div>
+  */}
           <article className="accordion">How does judging work? </article>
           <div className="panel">
             <p>

@@ -2,16 +2,20 @@ import React from "react";
 // import { motion } from 'framer-motion';
 
 import "./Sponsors.css";
-import bqp from "../../assets/sponsors/qbits/bqp-rm-bg.png";
+import bqp from "../../assets/sponsors/qbits/bqp.png";
 import alvolved from "../../assets/sponsors/qbits/alvolved.png";
 import myn from "../../assets/sponsors/qbits/myn.png";
-import qnu from "../../assets/sponsors/qbits/qnu.jpg";
+import qnu from "../../assets/sponsors/qbits/qnu-logo.svg";
 import w3q from "../../assets/sponsors/qbits/w3q.svg";
-import wolfram from "../../assets/sponsors/qbits/wolfram.png"
-import taskade from "../../assets/sponsors/qbits/taskade.svg"
-import interviewb from "../../assets/sponsors/qbits/interviewbuddy.png"
-import interviewca from "../../assets/sponsors/qbits/interviewcake.svg"
-import balsamiq from "../../assets/sponsors/qbits/balsamiq.svg"
+import wolfram from "../../assets/sponsors/qbits/wolfram.png";
+import taskade from "../../assets/sponsors/qbits/taskade.svg";
+import interviewb from "../../assets/sponsors/qbits/interviewbuddy.png";
+import interviewca from "../../assets/sponsors/qbits/interviewcake.svg";
+import balsamiq from "../../assets/sponsors/qbits/balsamiq.svg";
+import aops from "../../assets/sponsors/qbits/aops.png";
+import axure from "../../assets/sponsors/qbits/axure.svg";
+import venjay from "../../assets/sponsors/qbits/venjay-removebg-preview.png";
+import rosenfeld from "../../assets/sponsors/qbits/Rosenfeld_logohackbout3.png"
 
 const Sponsors = () => {
   return (
@@ -75,10 +79,9 @@ const Sponsors = () => {
                   data-aos-delay="0"
                   data-aos-duration="1000"
                   data-aos-easing="ease"
-                  
                 />
               </a>
-              </div>
+            </div>
 
             {/*}
             <div className="sponsors-grid polygonclass">
@@ -131,7 +134,7 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
-              
+
               <div className="article">
                 <a
                   href="https://interviewbuddy.com"
@@ -180,65 +183,65 @@ const Sponsors = () => {
                 data-aos-duration="1000"
                 data-aos-easing="ease"
               >
-              <span className="green">Silver</span> Sponsors
+                <span className="green">Silver</span> Sponsors
               </h4>
-            <div className="associate-sponsor">
-              <div className="article">
-                <a
-                  href="https://myn.global/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={myn}
-                    className="sponsors__img myn"
-                    alt="sponsor tezos"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
-              </div>
+              <div className="associate-sponsor">
+                <div className="article">
+                  <a
+                    href="https://myn.global/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={myn}
+                      className="sponsors__img myn"
+                      alt="sponsor tezos"
+                      data-aos="zoom-in"
+                      data-aos-offset="200"
+                      data-aos-delay="0"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease"
+                    />
+                  </a>
+                </div>
 
-              <div className="article">
-                <a
-                  href="https://w3q.tech/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={w3q}
-                    className="sponsors__img w3q"
-                    alt="sponsor tezos"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
+                <div className="article">
+                  <a
+                    href="https://w3q.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={w3q}
+                      className="sponsors__img w3q"
+                      alt="sponsor tezos"
+                      data-aos="zoom-in"
+                      data-aos-offset="200"
+                      data-aos-delay="0"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease"
+                    />
+                  </a>
+                </div>
+                <div className="article">
+                  <a
+                    href="https://interviewcake.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={interviewca}
+                      className="sponsors__img interviewcake"
+                      alt="sponsor tezos"
+                      data-aos="zoom-in"
+                      data-aos-offset="200"
+                      data-aos-delay="0"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease"
+                    />
+                  </a>
+                </div>
               </div>
-              <div className="article">
-                <a
-                  href="https://interviewcake.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={interviewca}
-                    className="sponsors__img interviewcake"
-                    alt="sponsor tezos"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
-              </div>
-            </div>
             </div>
 
             <div className="sponsors__sub">
@@ -252,64 +255,102 @@ const Sponsors = () => {
                 <span className="green">Bronze</span> Sponsors
               </h4>
             </div>
-              <div className="article">
-                <a
-                  href="https://www.qnulabs.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={qnu}
-                    className="sponsors__img qnu"
-                    alt="sponsor tezos"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="sponsors__sub">
-              <h4
-                data-aos="fade-up"
-                data-aos-offset="200"
-                data-aos-delay="0"
-                data-aos-duration="1000"
-                data-aos-easing="ease"
+            <div className="article">
+              <a
+                href="https://www.qnulabs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span className="green">Other Valued</span> Sponsors
-              </h4>
+                <img
+                  src={qnu}
+                  className="sponsors__img bqp"
+                  alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
             </div>
+          </div>
+          <div className="sponsors__sub">
+            <h4
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span className="green">Other Valued</span> Sponsors
+            </h4>
+          </div>
 
+          <div className="associate-sponsor">
+            <div className="article">
+              <a
+                href="https://www.aivolved.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={alvolved}
+                  className="sponsors__img alvolved"
+                  alt="sponsor Shashido"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.balsamiq.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={balsamiq}
+                  className="sponsors__img balsamiq"
+                  alt="sponsor Shashido"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://artofproblemsolving.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={aops}
+                  className="sponsors__img balsamiq"
+                  alt="sponsor Shashido"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            </div>
             <div className="associate-sponsor">
               <div className="article">
                 <a
-                  href="https://www.aivolved.in/"
+                  href="https://www.axure.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={alvolved}
-                    className="sponsors__img alvolved"
-                    alt="sponsor Shashido"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
-              </div>
-              <div className="article">
-                <a
-                  href="https://www.balsamiq.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={balsamiq}
+                    src={axure}
                     className="sponsors__img balsamiq"
                     alt="sponsor Shashido"
                     data-aos="zoom-in"
@@ -320,8 +361,44 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
+              <div className="article">
+                <a
+                  href="https://venjayautomation.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={venjay}
+                    className="sponsors__img educationtree"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+              <div className="article">
+                <a
+                  href="https://rosenfeldmedia.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={rosenfeld}
+                    className="sponsors__img balsamiq"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
       }
     </section>
   );

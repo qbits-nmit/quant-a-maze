@@ -2,46 +2,7 @@ import React from 'react';
 import './Mentors.css';
 
 import MentorCard from '../../components/MentorCards/MentorCards';
-
-import mark_m from '../../assets/mentors/qbits/mark.jpg';
-
 import shadow from '../../assets/mentors/new/shadow.png';
-/*
-import Shubham from '../../assets/mentors/new/shubham.png';
-import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
-import jenil from '../../assets/mentors/new/Jenil.jpeg';
-import anush from '../../assets/mentors/new/bhatia_anush.png'
-import avi from '../../assets/mentors/new/AVI.jpg'
-import galicia from '../../assets/mentors/new/galicia.jfif'
-import sukhjeet from '../../assets/mentors/new/sukhjeet.jpg'
-import shivam from '../../assets/mentors/new/shivamgoyal.png'
-import chandra from '../../assets/mentors/new/chandra.jfif'
-import anitha from '../../assets/mentors/new/Anitha.jpg'
-import Shubhendra from '../../assets/mentors/new/shubhendra.jfif'
-import swayam from '../../assets/mentors/new/swayam.jfif'
-import rachana from '../../assets/mentors/new/rachvis1.jfif'
-import yuktesh from '../../assets/mentors/new/yuktesh.jfif'
-import manav from '../../assets/mentors/new/manav.jpg'
-import aishwary from '../../assets/mentors/new/aishwary.JPG'
-import rishab from '../../assets/mentors/new/rishab.jpg'
-// import mOne from '../../assets/mentors/old/kanirudh.jpg';
-// import mTwo from '../../assets/mentors/old/Manav.jpg';
-// import mThree from '../../assets/mentors/old/pranjal.jpeg';
-// import mFour from '../../assets/mentors/old/vasanth.jpg';
-// import mFive from '../../assets/mentors/old/karthikeyan.jpg';
-// import mSix from '../../assets/mentors/old/himanshu.jpg';
-// import mSeven from '../../assets/mentors/old/kalai.PNG';
-// import mEight from '../../assets/mentors/old/sneha.jpg';
-// import mNine from '../../assets/mentors/old/Swathi.jpg';
-// import mTen from '../../assets/mentors/old/chandra.jpg';
-// import mEleven from '../../assets/mentors/old/rachana.jpg';
-// import mTwelve from '../../assets/mentors/old/swayam.jpg';
-// import mThirteen from '../../assets/mentors/old/abhitej.jpg';
-// import mFourteen from '../../assets/mentors/old/Nagaraja.jpg';
-// import mFifteen from '../../assets/mentors/old/Vishwas.jpg';
-// import mSixteen from '../../assets/mentors/old/Anand.jpeg';
-// import mSeventeen from '../../assets/mentors/old/Kartik.jpg';
-*/
 
 const Mentors = () => {
   return (

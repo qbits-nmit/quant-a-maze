@@ -55,6 +55,7 @@ const Prizes = () => {
           <p>INR 20,000</p>
         </div>
       </div>
+      {/* 
       <div className="prizes__sub">
         <h3
           className="prizes__title--sub green"
@@ -82,6 +83,7 @@ const Prizes = () => {
           </div>
         </div>
       </div>
+  */}
     </section>
   );
 };

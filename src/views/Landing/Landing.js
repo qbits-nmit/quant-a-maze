@@ -136,14 +136,14 @@ const Landing = () => {
           <h2 className="landing__sub-heading">
             {" "}
             <strong>
-              <span className="green">Q-BITS & MyQT Pvt. Ltd.</span>
+              Q-BITS & MyQT Pvt. Ltd. presents
             </strong>{" "}
-            presents Quant-A-Maze
+            <span className="green">Quant A Maze</span>
           </h2>
-          <h2 className="landing__sub-heading green">5th September 2022</h2>
+          <h2 className="landing__sub-heading green">Registrations Close 10th November 2022</h2>
 
           <h4 className="landing__sub-heading-2">
-            Register using the below link!
+            Register using the link below!
           </h4>
           <a
             href="https://bit.ly/3en2uIH"
