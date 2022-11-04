@@ -1,5 +1,4 @@
 import React from "react";
-// import { motion } from 'framer-motion';
 
 import "./Sponsors.css";
 import bqp from "../../assets/sponsors/qbits/bqp.png";
@@ -16,6 +15,7 @@ import aops from "../../assets/sponsors/qbits/aops.png";
 import axure from "../../assets/sponsors/qbits/axure.svg";
 import venjay from "../../assets/sponsors/qbits/venjay-removebg-preview.png";
 import rosenfeld from "../../assets/sponsors/qbits/Rosenfeld_logohackbout3.png"
+import echo3d from "../../assets/sponsors/qbits/echo3dhackbout3.png"
 
 const Sponsors = () => {
   return (
@@ -82,27 +82,6 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-
-            {/*}
-            <div className="sponsors-grid polygonclass">
-            </div>
-            <a
-                href="https://polygon.technology/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={polygon}
-                  className="sponsors__img polygon"
-                  alt="sponsor polygon"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="0"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease"
-                />
-              </a>
-      */}
           </div>
 
           <div className="sponsors__sub">
@@ -154,26 +133,6 @@ const Sponsors = () => {
                 </a>
               </div>
             </div>
-            {/* 
-            <div className="article">
-              <a
-                href="https://celo.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={celo}
-                  className="sponsors__img celo"
-                  alt="sponsor celo"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="0"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease"
-                />
-              </a>
-            </div>
-    */}
 
             <div className="sponsors__sub">
               <h4
@@ -397,6 +356,27 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
+            </div>
+            <div className="associate-sponsor">
+              <div className="article">
+                <a
+                  href="https://www.echo3d.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={echo3d}
+                    className="sponsors__img echoAR"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
       }

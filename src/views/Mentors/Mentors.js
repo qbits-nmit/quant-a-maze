@@ -2,7 +2,8 @@ import React from 'react';
 import './Mentors.css';
 
 import MentorCard from '../../components/MentorCards/MentorCards';
-import shadow from '../../assets/mentors/new/shadow.png';
+//import shadow from '../../assets/mentors/new/shadow.png';
+import kg from "../../assets/mentors/qbits/karthiganesh.png"
 
 const Mentors = () => {
   return (
@@ -21,12 +22,13 @@ const Mentors = () => {
         <div className="sponsors-grid">
 
         <div className="mentor__container">
+          {/*  */}
           <MentorCard
 
-            name="To be announced soon..."
-              img={shadow}
+            name="Karthiganesh Durai"
+              img={kg}
               /*occupation="To be announced soon..."*/
-              linkedIn="https://www.linkedin.com/"
+              linkedIn="https://www.linkedin.com/in/karthiganesh-durai-95535872/"
           />
           </div>
 
